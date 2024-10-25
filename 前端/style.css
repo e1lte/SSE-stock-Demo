@@ -1,0 +1,41 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    background-color: #f0f0f0;  
+}  
+  
+.container {  
+    text-align: center;  
+    background-color: #fff;  
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+h1 {  
+    margin-bottom: 20px;  
+    color: #333;  
+}  
+  
+.stock-data {  
+    margin-top: 20px;  
+}  
+  
+.stock-data p {  
+    margin: 10px 0;  
+    font-size: 1.2em;  
+    color: #666;  
+}  
+  
+.stock-data p#stock-change.up {  
+    color: green;  
+}  
+  
+.stock-data p#stock-change.down {  
+    color: red;  
+}
